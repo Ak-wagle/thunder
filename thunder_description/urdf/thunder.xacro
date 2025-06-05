@@ -4,6 +4,9 @@
 <xacro:include filename="$(find thunder_description)/urdf/materials.xacro" />
 <xacro:include filename="$(find thunder_description)/urdf/thunder.trans" />
 <xacro:include filename="$(find thunder_description)/urdf/thunder.gazebo" />
+
+<link name="root_link"/>
+
 <link name="base_link">
   <inertial>
     <origin xyz="-0.0015343514816687786 -7.81885672034026e-07 0.06692160954933128" rpy="0 0 0"/>
@@ -171,6 +174,11 @@
     </geometry>
   </collision>
 </link>
+
+<joint name="root_joint" type="fixed">
+  <parent link="root_link"/>
+  <child link="base_link"/>
+</joint>
 
 <joint name="front_wheel_left_joint" type="continuous">
   <origin xyz="0.07 0.043 0.0325" rpy="0 0 0"/>

@@ -25,7 +25,7 @@
   </collision>
 </link>
 
-<link name="front_wheel_left_1">
+<link name="front_wheel_left">
   <inertial>
     <origin xyz="-1.3877787807814457e-17 0.012500000000000004 0.0" rpy="0 0 0"/>
     <mass value="0.6512177959195153"/>
@@ -34,19 +34,19 @@
   <visual>
     <origin xyz="-0.07 -0.043 -0.0325" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find thunder_description)/meshes/front_wheel_left_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find thunder_description)/meshes/front_wheel_left.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.07 -0.043 -0.0325" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find thunder_description)/meshes/front_wheel_left_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find thunder_description)/meshes/front_wheel_left.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="front_wheel_right_1">
+<link name="front_wheel_right">
   <inertial>
     <origin xyz="0.0 -0.012500000000000004 0.0" rpy="0 0 0"/>
     <mass value="0.651217795919515"/>
@@ -55,19 +55,19 @@
   <visual>
     <origin xyz="-0.07 0.043 -0.0325" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find thunder_description)/meshes/front_wheel_right_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find thunder_description)/meshes/front_wheel_right.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.07 0.043 -0.0325" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find thunder_description)/meshes/front_wheel_right_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find thunder_description)/meshes/front_wheel_right.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="rear_wheel_left_1">
+<link name="rear_wheel_left">
   <inertial>
     <origin xyz="2.7755575615628914e-17 0.012500000000000004 0.0" rpy="0 0 0"/>
     <mass value="0.6512177959195157"/>
@@ -76,19 +76,19 @@
   <visual>
     <origin xyz="0.07 -0.043 -0.0325" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find thunder_description)/meshes/rear_wheel_left_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find thunder_description)/meshes/rear_wheel_left.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.07 -0.043 -0.0325" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find thunder_description)/meshes/rear_wheel_left_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find thunder_description)/meshes/rear_wheel_left.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="rear_wheel_right_1">
+<link name="rear_wheel_right">
   <inertial>
     <origin xyz="1.3877787807814457e-17 -0.012500000000000004 0.0" rpy="0 0 0"/>
     <mass value="0.6512177959195153"/>
@@ -97,19 +97,19 @@
   <visual>
     <origin xyz="0.07 0.043 -0.0325" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find thunder_description)/meshes/rear_wheel_right_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find thunder_description)/meshes/rear_wheel_right.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.07 0.043 -0.0325" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find thunder_description)/meshes/rear_wheel_right_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find thunder_description)/meshes/rear_wheel_right.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="lidar_1">
+<link name="lidar">
   <inertial>
     <origin xyz="3.469446951953614e-18 0.0 0.010000000000000037" rpy="0 0 0"/>
     <mass value="0.6042068071016564"/>
@@ -118,19 +118,19 @@
   <visual>
     <origin xyz="0.015 -0.0 -0.1415" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find thunder_description)/meshes/lidar_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find thunder_description)/meshes/lidar.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.015 -0.0 -0.1415" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find thunder_description)/meshes/lidar_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find thunder_description)/meshes/lidar.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="camera_1">
+<link name="camera">
   <inertial>
     <origin xyz="0.0 0.0 0.007500000000000007" rpy="0 0 0"/>
     <mass value="0.047099999999999996"/>
@@ -139,19 +139,19 @@
   <visual>
     <origin xyz="-0.095 -0.0 -0.1075" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find thunder_description)/meshes/camera_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find thunder_description)/meshes/camera.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.095 -0.0 -0.1075" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find thunder_description)/meshes/camera_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find thunder_description)/meshes/camera.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="imu_1">
+<link name="imu">
   <inertial>
     <origin xyz="0.0 0.0 0.0010000000000000009" rpy="0 0 0"/>
     <mass value="0.0062799999999999774"/>
@@ -160,14 +160,14 @@
   <visual>
     <origin xyz="0.09 -0.0 -0.1075" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find thunder_description)/meshes/imu_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find thunder_description)/meshes/imu.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.09 -0.0 -0.1075" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find thunder_description)/meshes/imu_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="file://$(find thunder_description)/meshes/imu.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -175,47 +175,47 @@
 <joint name="front_wheel_left_joint" type="continuous">
   <origin xyz="0.07 0.043 0.0325" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="front_wheel_left_1"/>
+  <child link="front_wheel_left"/>
   <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
 <joint name="front_wheel_right_joint" type="continuous">
   <origin xyz="0.07 -0.043 0.0325" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="front_wheel_right_1"/>
+  <child link="front_wheel_right"/>
   <axis xyz="0.0 -1.0 0.0"/>
 </joint>
 
 <joint name="rear_wheel_left_joint" type="continuous">
   <origin xyz="-0.07 0.043 0.0325" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="rear_wheel_left_1"/>
+  <child link="rear_wheel_left"/>
   <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
 <joint name="rear_wheel_right_joint" type="continuous">
   <origin xyz="-0.07 -0.043 0.0325" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="rear_wheel_right_1"/>
+  <child link="rear_wheel_right"/>
   <axis xyz="0.0 -1.0 0.0"/>
 </joint>
 
 <joint name="lidar_joint" type="fixed">
   <origin xyz="-0.015 0.0 0.1415" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="lidar_1"/>
+  <child link="lidar"/>
 </joint>
 
 <joint name="camera_link" type="fixed">
   <origin xyz="0.095 0.0 0.1075" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="camera_1"/>
+  <child link="camera"/>
 </joint>
 
 <joint name="imu_link" type="fixed">
   <origin xyz="-0.09 0.0 0.1075" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="imu_1"/>
+  <child link="imu"/>
 </joint>
 
 </robot>
